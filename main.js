@@ -15,7 +15,7 @@ items.forEach(item => {
             if(checked && checked.length > 0){
                 btnText.innerText = `${checked.length} Selected`;
             }else{
-                btnText.innerText = "Select Language";
+                btnText.innerText = "Select Anime";
             }
     });
 })

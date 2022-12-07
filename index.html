@@ -1,66 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title> Multiple Options Select Menu </title>
 
-        <link rel="stylesheet" href="style.css">
-                                
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-        
-    </head>
-    <body>
-        <div class="container">
-            <div class="select-btn">
-                <span class="btn-text">Select Anime</span>
-                <span class="arrow-dwn">
-                    <i class="fa-solid fa-chevron-down"></i>
-                </span>
-            </div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Multiple Options Select Menu </title>
 
-            <ul class="list-items">
-                <li class="item">
-                    <span class="checkbox">
-                        <i class="fa-solid fa-check check-icon"></i>
-                    </span>
-                    <span class="item-text">NarutoS</span>
-                </li>
-                <li class="item">
-                    <span class="checkbox">
-                        <i class="fa-solid fa-check check-icon"></i>
-                    </span>
-                    <span class="item-text">One Piece</span>
-                </li>
-                <li class="item">
-                    <span class="checkbox">
-                        <i class="fa-solid fa-check check-icon"></i>
-                    </span>
-                    <span class="item-text">Dragonball</span>
-                </li>
-                <li class="item">
-                    <span class="checkbox">
-                        <i class="fa-solid fa-check check-icon"></i>
-                    </span>
-                    <span class="item-text">Attack on Titan</span>
-                </li>
-                <li class="item">
-                    <span class="checkbox">
-                        <i class="fa-solid fa-check check-icon"></i>
-                    </span>
-                    <span class="item-text">Ajin</span>
-                </li>
-                <li class="item">
-                    <span class="checkbox">
-                        <i class="fa-solid fa-check check-icon"></i>
-                    </span>
-                    <span class="item-text">Death note</span>
-                </li>
-            </ul>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="select-btn">
+            <span class="btn-text">Select Anime</span>
+            <span class="arrow-dwn">
+                <i class="fa-solid fa-chevron-down"></i>
+            </span>
         </div>
 
-        <!-- JavaScript -->
-        <script src="main.js"></script>
-    </body>
+        <ul class="list-items">
+            <li class="item">
+                <input type="checkbox" class="checkbox check-icon" value="Naruto">
+                <label for="deadnote" class="item-text"> Naruto</label>
+            </li>
+            <li class="item">
+                <input type="checkbox" class="checkbox check-icon" value="OnePiece">
+                <label for="deadnote" class="item-text"> One Piece</label>
+            </li>
+            <li class="item">
+                <input type="checkbox" class="checkbox check-icon" value="Dragonball">
+                <label for="deadnote" class="item-text"> Dragonball</label>
+            </li>
+            <li class="item">
+                <input type="checkbox" class="checkbox check-icon" value="AttackOnTitan">
+                <label for="deadnote" class="item-text"> Attack on Titan</label>
+            </li>
+            <li class="item">
+                <input type="checkbox" class="checkbox check-icon" value="Ajin">
+                <label for="deadnote" class="item-text"> Ajin</label>
+            </li>
+            <li class="item">
+                <input type="checkbox" class="checkbox check-icon" value="DeathNote">
+                <label for="deadnote" class="item-text"> Death Note</label>
+            </li>
+        </ul>
+    </div>
+    <script src="main.js"></script>
+</body>
+
 </html>
